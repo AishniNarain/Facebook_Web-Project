@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(236, 239, 245);
+}
+
+.head{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(57, 79, 151);
+    display: flex;
+    flex-direction: row;
+}
+
+.heading{
+    /* border: 1px solid white; */
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+}
+
+.heading a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.mini-form{
+    /* border: 1px solid black; */
+    width: 40%;
+    margin-top: 34px;
+    color: white;
+}
+
+td{
+    padding-left: 15px;
+}
+
+.grey{
+    background-color: gray;
+    color: white;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+.body_content{
+    /* border: 1px solid black; */
+    margin-top: 25px;
+    width: 100%;
+    height: 800px;
+    display: flex;
+
+}
+
+.content{
+    /* border: 1px solid black; */
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content1{
+    /* border: 1px solid blue; */
+    width: 50%;
+    height: 150px;
+    margin-top: 75px;
+    margin-left: 350px;
+    color: rgb(73, 72, 72);
+    text-align: left;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.content2{
+    /* border: 1px solid red; */
+    width: 60%;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 455px;
+    font-size: 20px;
+}
+
+.content2 a{
+    text-decoration: none;
+    color: rgb(68, 73, 76);
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.content2 span{
+    color: rgb(167, 170,176);
+    margin-left: 15px;
+}
+
+.form{
+    /* border: 1px solid black; */
+    width: 40%;
+    height: 100%;
+}
+
+.form p{
+    color: rgb(122, 125, 130);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.form input{
+    /* width: 100%; */
+    height: 25px;
+    font-size: 17px;
+}
+
+select{
+    background-color: rgb(221, 218, 218); 
+    height:30px; 
+    font-size: 15px;
+    border-radius: 5px;
+    border-color: rgb(189, 187, 187);
+}
+
+.blue-color {
+    color: blue;
+    text-decoration: none;
+}
+
+
+
+.signup-button{
+    width: 250px;
+    height: 70px;
+    background-color: rgb(41, 162, 78);
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    border-color: none;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+    <div class="head">
+        <div class="heading"><a href="index.html">facebook</a></div>
+            <div class="mini-form">
+                <table>
+                    <form method="post">
+                        <tr>
+                            <td>
+                                <label for="email_id" >Email or Phone</label><br>
+                                <input type="email" name="email_id" id="email_id" style="margin-top: 3px;"><br>
+                                <input type="checkbox" name="option">Keep me signed in</input>
+                            </td>
+                            <td>
+                                <label for="pass" >Password</label><br>
+                                <input type="password" name="pass" id="pass" style="margin-top: 3px;"><br>
+                                <span><a href="forgot_password.html" style="text-decoration: none; color: white">Forgot your password ?</a></span>
+                            </td>
+                            <td>
+                                <input type="submit" name="submit" value="Log In" class="grey" onclick="checkData()"></input>
+                            </td>
+                            
+                        </tr>
+                    </form>
+                </table>
+            </div>
+    </div>
+
+    <div class="body_content">
+        <div class="content">
+            <div class="content1">
+                <p>Connect with friends and the world <br> around you on Facebook.</p>
+            </div>
+            <div class="content2">
+                <p><a href="">See photos and updates</a> <span>from friends in News Feed</span></p>
+                <p><a href="">Share what's new</a> <span>in your life on your timeline</span></p>
+                <p><a href="">Find More</a> <span>of what you're looking for with graph search</span></p>
+            </div>
+        </div>
+
+        <div class="form">
+            <p> <span style="color:rgb(73, 72, 72); font-size: 35px; font-weight: bold; margin-left: 20px;">Sign Up</span> <br>
+            <span style="color: rgb(122, 125, 130); font-size: 25px; font-weight: bold; margin-left: 20px;">It's free and always will be</span>
+            </p>
+
+            <form action="login.html" method="post">
+                <table border="0px" cellspacing="11px" cellpadding = "5px">
+                    <tr>
+                        <td>   
+                            <input type="text" id="first" name="first" placeholder="First name" size="21%">
+                            <input type="text" id="second" name="second" placeholder="Last name" size="21%">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="email" id="email" name="email" placeholder="Email or mobile number" autocomplete="off" size="45%">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="email" id="re-email" placeholder="Re-enter email or mobile number" size="45%">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="password" id="pwd" placeholder="New Password" size="45%">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="birthday" style="font-weight:bold; font-size: 25px; ">Birthday</span><br>
+                            <select id="day" >
+                                <option value="Day">Day</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                            </select>
+                            <select id="year" >
+                                <option value="Day">Year</option>
+                                <option value="1999">1999</option>
+                                <option value="2000">2000</option>
+                                <option value="2001">2001</option>
+                            </select>
+                            <select id="month" >
+                                <option value="Day">Month</option>
+                                <option value="January">January</option>
+                                <option value="February">February</option>
+                                <option value="March">March</option>
+                            </select>
+                            <span style="color: blue;"><a href="#" style="text-decoration: none;">Why do I need to provide my birthday?</a></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="font-size: 20px;">
+                            <input type="radio" name="gender" value="female"> Female</input>
+                            <input type="radio" name="gender" value="male"> Male</input>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span style="color: rgb(122, 125, 130)">
+                                By clicking Sign Up, you agree to our <span class="blue-color">Terms </span>and that <br>
+                                you have read our <span class="blue-color">Data Use Policy, </span>including our <br>
+                                <span class="blue-color">Cookie Use.</span>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <br>
+                            <input type="submit" name="submit" value="Sign Up" style="width: 250px; height: 50px;background-color: rgb(41, 162, 78);color: white;font-weight: bold;font-size: 25px;border-color: none;border-radius: 5px;" onclick="saveData()"></input>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <hr style="width: 720px;">
+            <br>
+            <span style="color:rgb(92, 94, 99);margin-left: 20px; word-spacing: 3px; font-size: 18px;"><span class="blue-color">Create a Page</span> for a celebrity, band or business.</span>
+        </div>
+    </div>
+    <script src="../js/signup.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+</html>

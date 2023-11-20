@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="body_content">
+        <div class="content1 content">
+            <div class="text">
+                <h1><a href="index.html">facebook</a></h1>
+                <p>
+                    Connect with friends and the world <br>
+                    around you on Facebook.
+                </p>
+            </div>
+        </div>
+        <div class="content2 content">
+            <div class="login_form">
+                <form action="final.html" method="post">
+                    <table cellspacing="20px">
+                        <tr>
+                            <td>
+                                <input type="email" id="email" name="email" placeholder="Email or phone number">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="password" id="pwd" name="password" placeholder="Password">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="submit" name="submit" value="Login" class="login" onclick="checkData()"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <center style="color: rgb(32, 95, 167); font-size: 18px;">Forgot password?</center>
+                            </td>
+                        </tr>
+                        
+                    </table>
+                    <hr>
+                </form>
+                <br>
+                <center>
+                    <button type="submit" value="submit" class="create"><a href="signup.html">Create new account</a></button>
+                </center>
+            </div>
+        </div>
+    </div>
+    <script src="../js/login.js"></script>
+</body>
+</html>
